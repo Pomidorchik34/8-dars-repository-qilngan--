@@ -341,4 +341,96 @@
 // }
 // console.log(arr2);
 
-// 19
+// 1
+// function func(arg = []) {
+//   let i = 5;
+//   let k = 0;
+//   while (i > arg.length) {
+//     k++;
+//     arg.push(k);
+//   }
+// }
+// console.log(func());
+
+// 2
+// let arr = [1, 3, 4];
+// arr.push(1, 2, 4);
+// arr.pop();
+// console.log(`${arr}`);
+
+// 3
+// let arr = [2, 4, 1];
+// arr.unshift(2, 4, 2, 5);
+// console.log(arr.reverse());
+
+// 4
+// let arr = [2, 4, 1];
+// arr.unshift(2, 3);
+// arr.shift();
+// console.log(`${arr}`);
+
+// 5
+// let arr = [1, 4, 2, 5, 2];
+// arr.pop();
+// let sum = 0;
+// for (const i of arr) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// 6
+// let arr = [1, 2, 4, 6, 9];
+// arr.push(1);
+// arr.at(-1);
+// console.log(arr);
+
+// 7
+// let arr1 = [1, 4, 6, 2, 6];
+// arr1.unshift(5);
+// let arr2 = [];
+// arr2.splice(0, -1,  arr1);
+// console.log(arr2.reverse());
+
+// 8
+// let arr = [4, 1, 2, 3];
+// arr.shift();
+// console.log(arr.join(`_`));
+
+// 9
+// let arr = [1, 3, 6, 2, 4];
+// arr.push(2, 4);
+// arr.unshift(3);
+// console.log(arr.reverse().toString());
+
+// 10
+// let arr = [2, 4, 2, 5, 6];
+// arr.pop();
+// arr.shift();
+// console.log(arr.reverse().toString());
+
+// 11
+// let arr = [2, 4, 2, 5, 6];
+// console.log(arr.reverse().toString());
+// arr.join(``);
+// console.log(arr.length);
+
+// 12
+// let arr1 = [1, 2, 3, 4];
+// let arr2 = [5, 6, 7, 8];
+// let conarr = arr1.concat(arr2);
+// let sliced = conarr.slice(1, conarr.length - 1);
+// let result = sliced.length;
+// console.log(result);
+
+// 13
+// let arr = [1, 4, 2, 5, 2, 5];
+// arr.splice(2, 5);
+// console.log(arr.join(`_`));
+// console.log(arr.length);
+
+// 14
+// let arr = [1, 4, 2, 5, 7, 5, 3, 5, 3];
+// arr.splice(3, arr.length - 1);
+// console.log(arr.reverse());
+
+// 15
